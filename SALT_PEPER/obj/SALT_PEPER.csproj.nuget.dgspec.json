@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER\\SALT_PEPER.csproj": {}
+    "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER\\SALT_PEPER.csproj": {}
   },
   "projects": {
-    "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj": {
+    "D:\\PROYECTOS\\FAST-FOOD\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj",
+        "projectUniqueName": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj",
         "projectName": "SALT_PAPER.DATA",
-        "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj",
+        "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj",
         "packagesPath": "C:\\Users\\tsshu\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\obj\\",
+        "outputPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PAPER.DATA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
-                "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj"
+              "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
+                "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
+    "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj",
+        "projectUniqueName": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj",
         "projectName": "SALT_PEPER.ENTIDADES",
-        "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj",
+        "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj",
         "packagesPath": "C:\\Users\\tsshu\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\obj\\",
+        "outputPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -138,14 +138,14 @@
         }
       }
     },
-    "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj": {
+    "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj",
+        "projectUniqueName": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj",
         "projectName": "SALT_PEPER.NEGOCIO",
-        "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj",
+        "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj",
         "packagesPath": "C:\\Users\\tsshu\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\obj\\",
+        "outputPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.NEGOCIO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -166,11 +166,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj": {
-                "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj"
+              "D:\\PROYECTOS\\FAST-FOOD\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj": {
+                "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj"
               },
-              "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
-                "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj"
+              "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
+                "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj"
               }
             }
           }
@@ -203,14 +203,14 @@
         }
       }
     },
-    "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER\\SALT_PEPER.csproj": {
+    "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER\\SALT_PEPER.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER\\SALT_PEPER.csproj",
+        "projectUniqueName": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER\\SALT_PEPER.csproj",
         "projectName": "SALT_PEPER",
-        "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER\\SALT_PEPER.csproj",
+        "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER\\SALT_PEPER.csproj",
         "packagesPath": "C:\\Users\\tsshu\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER\\obj\\",
+        "outputPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -231,11 +231,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
-                "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj"
+              "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
+                "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj"
               },
-              "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj": {
-                "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj"
+              "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj": {
+                "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj"
               }
             }
           }

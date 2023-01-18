@@ -9112,11 +9112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER\\SALT_PEPER.csproj",
+      "projectUniqueName": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER\\SALT_PEPER.csproj",
       "projectName": "SALT_PEPER",
-      "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER\\SALT_PEPER.csproj",
+      "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER\\SALT_PEPER.csproj",
       "packagesPath": "C:\\Users\\tsshu\\.nuget\\packages\\",
-      "outputPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER\\obj\\",
+      "outputPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9137,11 +9137,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
-              "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj"
+            "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
+              "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj"
             },
-            "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj": {
-              "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj"
+            "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj": {
+              "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj"
             }
           }
         }

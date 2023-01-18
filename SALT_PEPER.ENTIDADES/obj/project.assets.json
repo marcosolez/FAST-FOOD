@@ -5883,11 +5883,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj",
+      "projectUniqueName": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj",
       "projectName": "SALT_PEPER.ENTIDADES",
-      "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj",
+      "projectPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj",
       "packagesPath": "C:\\Users\\tsshu\\.nuget\\packages\\",
-      "outputPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\obj\\",
+      "outputPath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.ENTIDADES\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

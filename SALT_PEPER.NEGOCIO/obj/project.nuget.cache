@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T3AHdKl1vLyxiD3yyurpLXUmoiybluXdumb+DvsV+RHhs1kDUt8QxNUUySlv/DP+foCrSyqc6bY79o0ZE9thLA==",
+  "dgSpecHash": "62hsvl39c0/DCTxHfwhDBq002WaELjrBVjl1NoD6KFRJgUI7puMfmtDIB0BnlQAn3yq0PODKbdz5+uwDyjnZfA==",
   "success": true,
-  "projectFilePath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj",
+  "projectFilePath": "D:\\PROYECTOS\\FAST-FOOD\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tsshu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.32\\microsoft.aspnetcore.cryptography.internal.3.1.32.nupkg.sha512",
     "C:\\Users\\tsshu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.32\\microsoft.aspnetcore.cryptography.keyderivation.3.1.32.nupkg.sha512",
