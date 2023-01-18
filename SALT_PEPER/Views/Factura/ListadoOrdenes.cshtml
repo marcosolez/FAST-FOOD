@@ -1,0 +1,43 @@
+﻿@model List<OrdenDTO>
+
+<h1>Listado historial de órdenes</h1>
+
+
+<table class="table table-striped">
+    <thead class="table-light">
+        <tr>
+            <th>Nº Orden</th>
+            <th>Fecha orden</th>
+            <th>Usuario</th>
+            <th>Cliente</th>
+            <th>Estado orden</th>
+            <th>Total</th>          
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td class="text-body fw-bold"># @item.PK</td>
+            <td>@item.FECHASTRING</td>
+            <td>@item.USERNAME</td>
+            <td>@item.NOMBRECLIENTE</td>
+            <td>
+                @if (item.ESTADOORDEN == "Finalizada")
+                {
+                    <span class="badge badge-pill badge-soft-success font-size-12">@item.ESTADOORDEN</span>
+                }
+                @if (item.ESTADOORDEN == "Creada")
+                {
+                    <span class="badge badge-pill badge-soft-info font-size-12">@item.ESTADOORDEN</span>
+                }
+                @if (item.ESTADOORDEN == "Anulada")
+                {
+                    <span class="badge badge-pill badge-soft-danger font-size-12">@item.ESTADOORDEN</span>
+                }
+            </td>
+            <td class="text-body fw-bold">C$ @item.SUBTOTAL</td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj": {}
+  },
+  "projects": {
+    "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj",
+        "projectName": "SALT_PAPER.DATA",
+        "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj",
+        "packagesPath": "C:\\Users\\tsshu\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tsshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://3.14.232.66:5000/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
+                "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj",
+        "projectName": "SALT_PEPER.ENTIDADES",
+        "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj",
+        "packagesPath": "C:\\Users\\tsshu\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tsshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://3.14.232.66:5000/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.30, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj",
+        "projectName": "SALT_PEPER.NEGOCIO",
+        "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\SALT_PEPER.NEGOCIO.csproj",
+        "packagesPath": "C:\\Users\\tsshu\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.NEGOCIO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tsshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://3.14.232.66:5000/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj": {
+                "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PAPER.DATA\\SALT_PAPER.DATA.csproj"
+              },
+              "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj": {
+                "projectPath": "D:\\PROYECTOS\\SALT_PEPER\\SALT_PEPER.ENTIDADES\\SALT_PEPER.ENTIDADES.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

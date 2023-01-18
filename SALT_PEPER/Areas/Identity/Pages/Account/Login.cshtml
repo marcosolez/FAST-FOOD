@@ -1,0 +1,98 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Iniciar sesión";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6 col-xl-5">
+        <div class="card overflow-hidden">
+            <div class="bg-primary bg-soft">
+                <div class="row">
+                    <div class="col-7">
+                        <div class="text-primary p-4">
+                            <h5 class="text-primary">Bienvenido</h5>
+                        </div>
+                    </div>
+                    <div class="col-5 align-self-end">
+                        <img src="~/assets/images/profile-img.png" alt="" class="img-fluid" />
+
+                    </div>
+                </div>
+            </div>
+            <div class="card-body pt-0">
+                <div class="auth-logo">
+                    <a href="index.html" class="auth-logo-light">
+                        <div class="avatar-md profile-user-wid mb-4">
+                            <span class="avatar-title rounded-circle bg-light">
+                                <img src="~/assets/images/logo-light.svg" alt="" class="rounded-circle" height="34">
+                            </span>
+                        </div>
+                    </a>
+
+                    <a href="index.html" class="auth-logo-dark">
+                        <div class="avatar-md profile-user-wid mb-4">
+                            <span class="avatar-title rounded-circle bg-light">
+                                <img src="~/assets/images/logo.svg" alt="" class="rounded-circle" height="34">
+                            </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="p-2">
+                    <form id="account" method="post" class="form-horizontal">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="mb-3">
+                            <label class="form-label">Usuario</label>
+                            <input asp-for="Input.Email" class="form-control" placeholder="Ingrese usuario" />
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Contraseña</label>
+                            <div class="input-group auth-pass-inputgroup">
+                                <input asp-for="Input.Password" class="form-control" placeholder="Ingrese contraseña" aria-label="Password" aria-describedby="password-addon" />
+                                <button class="btn btn-light " type="button" id="password-addon"><i class="mdi mdi-eye-outline"></i></button>
+                            </div>
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-check">
+                            <input asp-for="Input.RememberMe" class="form-check-input" />
+                            <label class="form-check-label" for="remember-check">
+                                Recuerdame
+                            </label>
+                        </div>
+
+                        <div class="mt-3 d-grid">
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">Iniciar sesión</button>
+                        </div>
+                        <div class="form-group float-end">
+                            <p>
+                                <a id="forgot-password" asp-page="./ForgotPassword">¿Olvidó su contraseña?</a>
+                            </p>
+                            @*<p>
+                                    <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                                </p>*@
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="mt-5 text-center">
+
+            <div>
+
+                <p>
+                    ©
+                    <script>document.write(new Date().getFullYear())</script> SALT-PEPER. Creado para <i class="mdi mdi-account-check text-danger"></i> FAREM-Carazo
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

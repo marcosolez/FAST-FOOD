@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SALT_PAPER.DATA\SALT_PAPER.DATA.csproj" />
+    <ProjectReference Include="..\SALT_PEPER.ENTIDADES\SALT_PEPER.ENTIDADES.csproj" />
+  </ItemGroup>
+
+</Project>
