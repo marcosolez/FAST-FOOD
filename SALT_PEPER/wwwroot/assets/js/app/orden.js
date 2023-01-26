@@ -15,7 +15,7 @@ $(document).ready(function () {
     });
 
     $("#btnAddOrden").click(function () {
-        AgregarOrden();
+        VerificaExisteIngredienteInventario();
     })
 
     $("#btnCancelarOrden").click(function (e) {
@@ -38,6 +38,43 @@ $(document).ready(function () {
 
 function colapseDetalles(id) {    
     $(`#collapseExample${id}`).collapse("toggle")
+}
+
+function VerificaExisteIngredienteInventario() {
+    if ($("#FKPLATILLO").val() === "") {
+        lanzaNotificacion("Seleccione una orden", "Falta información");
+        return;
+    }
+
+    if (VerificaSiExisteIngrediente(Number($("#FKPLATILLO").val()))) {
+        lanzaNotificacion("La orden ya existe");
+        return;
+    }
+    console.log("Platillo: ", Number($("#FKPLATILLO").val()))
+    $.getJSON(`Factura/VerificaExistenciaIngredientes?pk=${Number($("#FKPLATILLO").val())}&cant=${Number($("#txtCantidad").val())}`).then(function (data) {
+       
+        if (data.length === 0) {
+            AgregarOrden();
+        } else {
+            let mensaje = "La cantidad en inventario de los siguientes ingredientes, no son suficientes para preparar este platillo: [";
+
+            for (var i = 0; i < data.length; i++) {
+                if (i>0) {
+                    mensaje +=" , " + data[i];
+                }else
+                mensaje += data[i];
+            }
+            mensaje += "]";
+
+            Swal.fire(
+                'Inventario insufienciente',
+                 mensaje,
+                'error'
+            );
+        }
+    });
+
+   
 }
 
 function ListarOrdenesServer() {
@@ -86,17 +123,7 @@ function guardarOrden() {
 }
 
 function AgregarOrden() {
-    if ($("#FKPLATILLO").val() === "") {
 
-        lanzaNotificacion("Seleccione una orden", "Falta información");      
-        return;
-    }
-
-
-    if (VerificaSiExisteIngrediente(Number($("#FKPLATILLO").val()))) {
-        lanzaNotificacion("La orden ya existe");       
-        return;
-    }
 
     const encontrado = JSONPlatillos.filter(x => x.pk === Number($("#FKPLATILLO").val()));
     const platillo = encontrado[0];

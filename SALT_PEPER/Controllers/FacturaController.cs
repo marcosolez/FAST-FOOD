@@ -66,12 +66,17 @@ namespace SALT_PEPER.Controllers
             return Json(new { data = resp });
         }
 
-
-
         public IActionResult ListadoOrdenes()
         {
             var resp = _contextOrden.ListadoOrdenesHistorial();
             return View(resp);
+        }
+
+        [HttpGet]
+        public JsonResult VerificaExistenciaIngredientes(int pk, int cant)
+        {   
+            var exietencia = _contextOrden.VerificaExistenciaIngrediente(pk, cant);
+            return Json(exietencia);
         }
     }
 }

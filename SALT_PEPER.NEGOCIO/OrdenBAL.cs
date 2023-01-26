@@ -20,9 +20,9 @@ namespace SALT_PEPER.NEGOCIO
 
         public List<OrdenDTO> GetOrderByTipo(string tipo, string fecha)
         {
-            return _context.GetOrderByTipo(tipo,fecha);
+            return _context.GetOrderByTipo(tipo, fecha);
         }
-        
+
 
         public bool GuardarOrdenesyDetalles(OrdenDTO model)
         {
@@ -34,8 +34,12 @@ namespace SALT_PEPER.NEGOCIO
             return _context.AnularFinalizarOrden(pk, tipo);
         }
 
-        public List<OrdenDTO> ListadoOrdenesHistorial() =>      
+        public List<OrdenDTO> ListadoOrdenesHistorial() =>
              _context.ListadoOrdenesHistorial();
-        
+
+        public List<string> VerificaExistenciaIngrediente(int pkPlatillo, int cant) =>
+            _context.VerificaExistenciaIngrediente(pkPlatillo, cant);
+
+
     }
 }

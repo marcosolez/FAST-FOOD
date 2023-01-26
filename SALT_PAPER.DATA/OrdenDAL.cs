@@ -237,5 +237,29 @@ namespace SALT_PAPER.DATA
             }
             return listado.OrderByDescending(x=>x.PK).ToList();
         }
+
+        public List<string> VerificaExistenciaIngrediente(int pkPlatillo, int cant)
+        {
+            var resp = new List<string>();
+            var platillo = _context.TblIngredientePlatillo.Where(x => x.Fkplatillo == pkPlatillo).ToList();
+
+            //Si el platillo no tiene ingredientes
+            if (platillo.Count == 0)
+                return resp;
+            
+
+            foreach (var item in platillo)
+            {
+                var ingrediente = _context.TblIngrediente.FirstOrDefault(x => x.Pk == item.Fkingrediente);
+                var StokInventario = _context.TblInventario.FirstOrDefault(x => x.Fkingrediente == item.Fkingrediente);
+
+                if (StokInventario!=null)
+                {
+                    if ((item.Cantidadunidad* cant) > StokInventario.Cantidadstock)
+                        resp.Add(ingrediente.Nombre);
+                }
+            }
+            return resp;
+        }
     }
 }

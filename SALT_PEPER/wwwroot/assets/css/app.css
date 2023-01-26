@@ -23,6 +23,21 @@ File: Main Css File
 .bajar:hover {
     color:lightsalmon;
 }
+.fondo-login {
+    background-image: url(../../images/Racing2.jpg);
+    height: 130px;
+    background-size: contain;
+    background-position: right;
+    background-repeat:no-repeat;
+}
+.fondo-welcome {
+    background-image: url(../../images/Racing2.jpg);
+    height: 130px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:400px;
+}
 
 .navbar-header {
     display: -webkit-box;
