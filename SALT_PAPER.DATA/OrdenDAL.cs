@@ -150,6 +150,14 @@ namespace SALT_PAPER.DATA
                             Subtotal = item.SUBTOTAL
 
                         });
+                        var ingredientes = _context.TblIngredientePlatillo.Where(y => y.Fkplatillo == item.FKPLATILLO).ToList();
+                        foreach (var itemIngre in ingredientes)
+                        {
+                            var ingrediente = _context.TblIngrediente.FirstOrDefault(x => x.Pk == itemIngre.Fkingrediente);
+                            var StokInventario = _context.TblInventario.FirstOrDefault(x => x.Fkingrediente == itemIngre.Fkingrediente);
+                            StokInventario.Cantidadstock = StokInventario.Cantidadstock - (itemIngre.Cantidadunidad * item.CANTIDAD);
+                        }
+
                     }
                     _context.TblDetallePedido.AddRange(detallesPedido);
                     _context.SaveChanges();
@@ -175,9 +183,20 @@ namespace SALT_PAPER.DATA
                     if (tipo == "Anular")
                     {
                         orden.Estadoorden = EstadosOrdenes.Anulada.ToString();
+                        var detallesPedidos = _context.TblDetallePedido.Where(x => x.Fkpedido == pk).ToList();
+                        foreach (var itemDetallePedido in detallesPedidos)
+                        {
+                            var ingredientes = _context.TblIngredientePlatillo.Where(x => x.Fkplatillo == itemDetallePedido.Fkplatillobebida).ToList();
+                            foreach (var itemIngrediente in ingredientes)
+                            {
+                                var inventario = _context.TblInventario.FirstOrDefault(x => x.Fkingrediente == itemIngrediente.Fkingrediente);
+                                if (inventario != null)
+                                    inventario.Cantidadstock = inventario.Cantidadstock + (itemIngrediente.Cantidadunidad * itemDetallePedido.Cantidad);
+                            }
+                        }                      
                     }
                     else
-                    {
+                    {  
                         orden.Estadoorden = EstadosOrdenes.Finalizada.ToString();
                     }
                     _context.SaveChanges();
